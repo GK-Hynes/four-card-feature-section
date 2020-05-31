@@ -13,10 +13,12 @@
     <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
-    <header class="header">
-      <h1 class="text-4xl text-dark-blue mb-4">
-        <span class="font-thin">Reliable, efficient delivery</span>
-        <span class="font-semibold">Powered by Technology</span>
+    <header class="header text-center px-8">
+      <h1 class="text-2xl md-text-3xl lg-text-4xl text-dark-blue mb-4">
+        <span class="display-block font-thin"
+          >Reliable, efficient delivery</span
+        >
+        <span class="display-block font-semibold">Powered by Technology</span>
       </h1>
 
       <p class="text-gray-blue">
@@ -25,10 +27,10 @@
       </p>
     </header>
 
-    <div class="container">
-      <div class="card border-top border-cyan">
+    <div class="container px-4 mb-12">
+      <div class="card border-top border-cyan lg-down">
         <h3 class="text-xl font-semibold text-dark-blue mb-2">Supervisor</h3>
-        <p class="text-gray-blue mb-10">
+        <p class="text-sm text-gray-blue mb-10">
           Monitors activity to identify project roadblocks
         </p>
         <img
@@ -40,7 +42,7 @@
 
       <div class="card border-top border-red">
         <h3 class="text-xl font-semibold text-dark-blue mb-2">Team Builder</h3>
-        <p class="text-gray-blue mb-10">
+        <p class="text-sm text-gray-blue mb-10">
           Scans our talent network to create the optimal team for your project
         </p>
         <img
@@ -50,9 +52,9 @@
         />
       </div>
 
-      <div class="card border-top border-orange">
+      <div class="card border-top border-orange lg-order-4">
         <h3 class="text-xl font-semibold text-dark-blue mb-2">Karma</h3>
-        <p class="text-gray-blue mb-10">
+        <p class="text-sm text-gray-blue mb-10">
           Regularly evaluates our talent to ensure quality
         </p>
         <img
@@ -62,9 +64,9 @@
         />
       </div>
 
-      <div class="card border-top border-blue">
+      <div class="card border-top border-blue lg-down">
         <h3 class="text-xl font-semibold text-dark-blue mb-2">Calculator</h3>
-        <p class="text-gray-blue mb-10">
+        <p class="text-sm text-gray-blue mb-10">
           Uses data from past projects to provide better delivery estimates
         </p>
         <img
@@ -75,12 +77,17 @@
       </div>
     </div>
 
-    <footer class="footer">
-      <p class="attribution">
+    <footer class="text-center my-4 px-8">
+      <p class="text-gray-blue">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          class="text-cyan"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/GK-Hynes">Gerard Hynes</a>.
+        >. Coded by
+        <a class="text-cyan" href="https://github.com/GK-Hynes">Gerard Hynes</a
+        >.
       </p>
     </footer>
   </body>
